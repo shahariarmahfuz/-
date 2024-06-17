@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IMAGE TO LINK CONVERTER [ GIF NOT ALLOWED ]</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="title">IMAGE TO LINK CONVERTER</h1>
+    <div class="upload-area" id="upload-area" onclick="uploadImage()">
+      <div class="drag-drop-area" id="drag-drop-area">
+        <span>DRAG & DROP OR CLICK TO UPLOAD IMAGE</span>
+      </div>
+      <input type="file" id="file-input" accept="image/*" onchange="handleFiles(this.files)">
+    </div>
+    <div class="result" id="article-C">
+      <p id="link"></p>
+    </div>
+    <div class="loading-indicator" id="loading-indicator">
+      <img src="https://i.gifer.com/ZZ5H.gif" alt="Loading...">
+    </div>
+    <button class="artB-upload" id="submitBtn" onclick="submitImage()">UPLOAD</button>
+  </div>
+  <footer>© 2024 Shahariar Mahfuz. All rights reserved</footer>
+<script src="scripts.js"></script>
+</body>
+</html>
