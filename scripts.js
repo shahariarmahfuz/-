@@ -1,4 +1,4 @@
-    function uploadImage() {
+function uploadImage() {
       document.getElementById('file-input').click();
     }
 
